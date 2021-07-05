@@ -57,4 +57,21 @@ img{
 .aboutSection_allContent img{
     width: 150%;
 }
+.all_recipies{
+    display: flex;
+    width: 90%;
+    margin: 20px auto !important;
+}
+.single_recipies{
+    width: 26%;
+    margin: 0 3.666%;
+    box-shadow: 8px 8px 30px rgb(160, 160, 160);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.single_recipies{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
