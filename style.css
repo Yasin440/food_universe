@@ -1,3 +1,60 @@
 body{
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
+.orderFood{
+    display: flex;
+    margin-top: 80px;
+}
+.content{
+    margin-top: 80px;
+}
+.content p{
+    color: rgb(129, 129, 129);
+    margin-bottom: 50px;
+}
+.orangeColor{
+    color: orange;
+}
+.halfWith h1{
+    color: rgb(73, 73, 73);
+}
+h1{
+    font-size: 50px;
+}
+img{
+    width: 100%;
+}
+.halfWith{
+    width: 40%;
+    padding: 0 5%;
+}
+.linkButton{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(45deg,#ffa467,#fa4929);
+    padding: 12px 25px;
+    border-radius: 25px;
+    
+}
+.aboutSection{
+    margin-top: 80px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutSection p{
+    width: 90%;
+    line-height: 27px;
+    margin-bottom: 70px;
+}
+.aboutSection_allContent{
+    display: flex;
+    padding-top: 50px;
+}
+.aboutSection_allContent img{
+    width: 150%;
+}
+
