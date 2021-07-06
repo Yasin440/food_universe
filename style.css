@@ -9,14 +9,15 @@ body{
 .content{
     margin-top: 80px;
 }
-.content p{
+p{
     color: rgb(129, 129, 129);
+    line-height: 27px;
     margin-bottom: 50px;
 }
 .orangeColor{
     color: orange;
 }
-.halfWith h1{
+h2,h1{
     color: rgb(73, 73, 73);
 }
 h1{
@@ -47,8 +48,6 @@ img{
 }
 .aboutSection p{
     width: 90%;
-    line-height: 27px;
-    margin-bottom: 70px;
 }
 .aboutSection_allContent{
     display: flex;
@@ -63,15 +62,43 @@ img{
     margin: 20px auto !important;
 }
 .single_recipies{
-    width: 26%;
-    margin: 0 3.666%;
-    box-shadow: 8px 8px 30px rgb(160, 160, 160);
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 6px 6px 25px rgb(160, 160, 160);
     padding: 20px 20px;
     border-radius: 20px;
 }
-.single_recipies{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+.about_recipies{
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+    overflow: hidden;
 }
+.social_follower{
+    margin: 80px auto;
+    width: 83%;
+    display: flex;
+    box-shadow: 6px 6px 25px rgb(160, 160, 160);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.social_follower div{
+    width: 20%;
+    margin-left: 12%;
+}
+.social_follower h1{
+    margin-bottom: -15px;
+    color: rgb(0, 0, 0);
+}
+footer{
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+footer h1{
+    font-size: 35px;
+}
+
 
